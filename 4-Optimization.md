@@ -8,7 +8,7 @@ It's helpful to have an intuition for how SGD and its variants optimize models, 
 
 ## Optional reading
 
-- [Noisy Quadratic Model](https://arxiv.org/abs/1907.04164) - The NQM is the second-order Taylor expansion of the loss discussed in the critical batch size paper, and accounts for suprisingly many deep learning phenomena. This paper uses this model to explain the effect of curvature and preconditioning on the critical batch size.
+- [Noisy Quadratic Model](https://arxiv.org/abs/1907.04164) - The NQM is the second-order Taylor expansion of the loss discussed in the critical batch size paper, and accounts for surprisingly many deep learning phenomena. This paper uses this model to explain the effect of curvature and preconditioning on the critical batch size.
 - [Adam](https://arxiv.org/abs/1412.6980) - The most popular optimization algorithm in deep learning today. It's worth understanding the update rule. Some intuition about how Adam is adjusting for signal-to-noise ratios can also be found [here](https://www.jacobh.co.uk/preconditioning_for_sgd.pdf).
 - [Does batch size matter?](https://blog.janestreet.com/does-batch-size-matter/) - Some helpful intuition about how SGD behaves below the critical batch size.
 - [Edge of Stability](https://arxiv.org/abs/2103.00065) - Studies the effect of optimization on the Hessian, an interesting phenomenon that the NQM cannot account for (since it assumes the Hessian is constant).

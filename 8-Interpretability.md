@@ -20,6 +20,6 @@ Mechanistic interpretability aims to reverse-engineer the weights of neural netw
 
 Train a small CNN to do MNIST classification, and try your best to mechanistically understand how it is able to classify digits correctly.
 
-- Try feature visualiztion, but note that it often [doesn't work](https://distill.pub/2020/understanding-rl-vision/#feature-visualization) for models trained on such a simple dataset.
+- Try feature visualization, but note that it often [doesn't work](https://distill.pub/2020/understanding-rl-vision/#feature-visualization) for models trained on such a simple dataset.
 - Try [attribution](https://distill.pub/2018/building-blocks/#:~:text=How%20Are%20Concepts%20Assembled), which is more likely to help.
 - Use whatever other techniques you like. Consider focusing in on a small part of the network and trying to understand it as best you can.

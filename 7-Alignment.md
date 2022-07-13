@@ -8,7 +8,7 @@ Alignment is the problem of getting models to use their abilities in the ways th
 
 ## Optional reading
 
-- [Iterated amplification](https://openai.com/blog/amplifying-ai-training/) - A proposal to scale RLHF beyond tasks that are too difficult for humans to evaluate, by using decomposition. This can equivalently be viewed as using AI to assit human evaluation, which is the framing taken by the closely related proposal of [recursive reward modeling](https://deepmindsafetyresearch.medium.com/scalable-agent-alignment-via-reward-modeling-bf4ab06dfd84).
+- [Iterated amplification](https://openai.com/blog/amplifying-ai-training/) - A proposal to scale RLHF beyond tasks that are too difficult for humans to evaluate, by using decomposition. This can equivalently be viewed as using AI to assist human evaluation, which is the framing taken by the closely related proposal of [recursive reward modeling](https://deepmindsafetyresearch.medium.com/scalable-agent-alignment-via-reward-modeling-bf4ab06dfd84).
 - [Book summarization](https://openai.com/blog/summarizing-books/) - An application of decomposition in combination with RLHF, as a step towards iterated amplification.
 - [Critiques](https://openai.com/blog/critiques/) - A study of AI-written critiques helping humans to notice flaws in summaries, as a step towards recursive reward modeling.
 - [AI Safety via Debate](https://openai.com/blog/debate/) - Another related proposal to scale RLHF beyond tasks that are too difficult for humans to evaluate. A potential obstruction to debate based on experiments involving human debaters is discussed [here](https://www.alignmentforum.org/posts/PJLABqQ962hZEqhdB/debate-update-obfuscated-arguments-problem).
