@@ -1,8 +1,12 @@
 # Deep Learning Curriculum
 
-This is an advanced curriculum for getting up to speed with some of the latest developments in deep learning, as of July 2022. It is heavily biased towards my own research interests, especially large language model alignment, but it should be of general interest. It is targeted at people with a strong quantitative background who are familiar with the basics of deep learning, but may otherwise be new to the field. I do not expect to keep it up-to-date. Credit to John Schulman for an older curriculum which inspired this and from which I cribbed bits and pieces.
+This is an advanced curriculum for getting up to speed with some of the latest developments in deep learning, as of July 2022. It is heavily biased towards my own research interests, especially large language model alignment, but it should be of general interest. It is targeted at people with a strong quantitative background who are familiar with the basics of deep learning, but may otherwise be new to the field.
 
 **WARNING**: this curriculum may be extremely challenging to take on alone. It is highly recommended to find a more experienced mentor, or at the very least a study partner. There are suggestions for more accessible alternatives, which have the same prerequisites, below.
+
+I do not intend to try to keep this curriculum up-to-date, but PRs are welcome, although I reserve the right to be picky about what gets included to avoid it becoming too bloated.
+
+Credit to John Schulman for an older curriculum which inspired this and from which I cribbed bits and pieces.
 
 ## Pre-prerequesites
 
@@ -30,7 +34,7 @@ There are many resources for studying these topics. Here are some suggestions:
 - [Project Euler](https://projecteuler.net/) - A series of increasingly challenging mathematical programming puzzles. A fun way to get programming practice for the mathematically inclined.
 - [Learning the Shell](https://linuxcommand.org/lc3_learning_the_shell.php) - A tutorial for the Unix command line.
 
-I recommend putting a significant fraction of your study time into exercises -- problems for math, and implementation for programming -- since it forces you to think through the ideas for yourself.
+I recommend putting a significant fraction of your study time into exercises – problems for math, and implementation for programming – since it forces you to think through the ideas for yourself.
 
 ## Prerequesites
 
@@ -56,7 +60,7 @@ The curriculum is divided into 8 chapters:
 - [Chapter 7: Alignment](7-Alignment.md)
 - [Chapter 8: Interpretability](8-Interpretability.md)
 
-Chapter 1 is helpful for understanding chapters 2, 3 and 8, but otherwise the chapters can be completed in any order. Chapter 6 may also be somewhat helpful for understanding chapter 7. Chapters 1 and 6 and probably the most important overall.
+Chapter 1 is helpful for understanding chapters 2, 3 and 8, but otherwise the chapters can be completed in any order. Chapter 6 may also be somewhat helpful for understanding chapter 7. Chapters 1 and 6 are probably the most important overall.
 
 Each chapter has three sections:
 

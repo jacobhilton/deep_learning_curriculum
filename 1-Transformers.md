@@ -4,7 +4,7 @@ The transformer is an important neural network architecture used for language mo
 
 ## Recommended reading
 
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Section 3 of the paper that introduced the transformer explains the architecture well. Don't worry too much about the encoder and how that fits in, as that's somewhat specific to translation -- unsupervised transformer language models are generally decoder-only.
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Section 3 of the paper that introduced the transformer explains the architecture well. Don't worry too much about the encoder and how that fits in, as that's somewhat specific to translation – unsupervised transformer language models are generally decoder-only.
 
 ## Optional reading
 
