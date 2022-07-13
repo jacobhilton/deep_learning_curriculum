@@ -12,7 +12,7 @@ Studying how properties of networks vary with scale is important for drawing gen
 - [Scaling Laws for Transfer](https://arxiv.org/abs/2102.01293) - A study of how pre-training on natural language improves fine-tuning on Python. In the low-fine-tuning-data regime, pre-training acts as an effective multiplier on the amount of fine-tuning data.
 - [Unified Scaling Laws for Routed Language Models](https://arxiv.org/abs/2202.01169) - Scaling laws for MOEs
 - [Scaling Scaling Laws with Board Games](https://arxiv.org/abs/2104.03113) - Scaling laws for AlphaZero on Hex
-- [The Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) - An opinionated take on the importance of scale.
+- [Chinchilla](https://arxiv.org/abs/2203.15556) - A correction to the original scaling laws paper: parameter count scales linearly with token budget for compute-optimal models, not ~quadratically. The difference comes from using a separately-tuned learning rate schedule for each token budget, rather than using a single training run to measure performance for every token budget. This highlights the importance of hyperparameter tuning for measuring scaling law exponents.
 
 ## Suggested exercise
 
