@@ -8,7 +8,7 @@ Mechanistic interpretability aims to reverse-engineer the weights of neural netw
 
 ## Optional reading
 
-- [Feature Visualization](https://distill.pub/2017/feature-visualization/) - A method of interpreting a neuron by optimizing an input image based on the neuron's output, similarly to how [adversarial examples](https://arxiv.org/abs/1312.6199) are generated.
+- [Feature Visualization](https://distill.pub/2017/feature-visualization/) - A method of interpreting a neuron by optimizing an input image based on the neuron's output.
 - [Building Blocks](https://distill.pub/2018/building-blocks/) - Explores interfaces that combine feature visualization with attribution, which tries to identify which inputs or prior neurons are responsible for an output or a later neuron's output.
 - [Multimodal Neurons](https://distill.pub/2021/multimodal-neurons/) - An exploration of [CLIP](https://openai.com/blog/clip/) neurons, which correspond to a remarkable array of concepts.
 - [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) - A preliminary framework for transformer interpretability, which helps give an intuition for what computations transformers are actually performing. There are accompanying [exercises](https://transformer-circuits.pub/2021/exercises/index.html) and [videos](https://transformer-circuits.pub/2021/videos/index.html).

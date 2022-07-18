@@ -59,6 +59,7 @@ The curriculum is divided into 8 chapters:
 - [Chapter 6: Reinforcement Learning](6-Reinforcement-Learning.md)
 - [Chapter 7: Alignment](7-Alignment.md)
 - [Chapter 8: Interpretability](8-Interpretability.md)
+- [Chapter 9: Adversarial Training](9-Adversarial-Training.md)
 
 Chapter 1 is helpful for understanding chapters 2, 3 and 8, but otherwise the chapters can be completed in any order. Chapter 6 may also be somewhat helpful for understanding chapter 7. Chapters 1 and 6 are probably the most important overall.
 
