@@ -92,7 +92,7 @@ Some suggestions for more advanced online courses:
 
 ## Additional advice
 
-These are miscellaneous opinions based on personal experience, so take them with a pinch of salt. [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html) is also worth a read.
+These are miscellaneous opinions based on personal experience, so take them with a pinch of salt. [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html) is also worth a read. For advice on pursuing a career in technical AI alignment, I recommend [this guide](https://forum.effectivealtruism.org/posts/7WXPkpqKGKewAymJf/how-to-pursue-a-career-in-technical-ai-alignment).
 
 I've emphasized exercises throughout this page, because they force you to think ideas through in a way that passive learning doesn't. In my experience, this is especially important when learning about unfamiliar topics. Once you have built up experience in an area, it's much easier to remember something in that area that you've only seen or heard once, because of how it fits into your existing web of knowledge.
 
