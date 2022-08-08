@@ -71,6 +71,8 @@ Each chapter has three sections:
 
 Each chapter should take between half a week and 2 weeks of full-time study, depending on the chapter and how much depth you go into, but don't be discouraged if it takes longer than this.
 
+Once you have completed an exercise, you can take a look at other people's solutions [here](Solutions.md). You are welcome to add a link to your own solutions to that page by submitting a PR.
+
 ## Alternatives to this curriculum
 
 This curriculum may be very challenging, especially without mentorship. A more realistic alternative for most people is to work on larger programming projects involving deep learning, and/or to work through more advanced textbooks or online courses. These can be engaging, provide structure, and last a long time. The downside is that they may be less focused on the most relevant material. But it's always possible to return to this curriculum at a later date.
