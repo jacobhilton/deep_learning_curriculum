@@ -21,6 +21,8 @@ Reinforcement learning is essentially learning by trial and error.
 
 Implement PPO and run it on [Procgen](https://github.com/openai/procgen). If you use the environments in easy mode, you'll be able to train on 1 GPU, which means you won't need to worry about data parallelism (though making a data-parallel implementation could be instructive).
 
+Note: this exercise may especially challenging, and it may help to start with a simpler [Gym](https://github.com/openai/gym) environment rather than Procgen to get things working, as well as using the debugging tips below.
+
 - Use the hyperparameters from the [Procgen paper](https://arxiv.org/abs/1912.01588). Unless you're using the exact same architecture though, you'll need to tune the learning rate (the other hyperparameters shouldn't require much tuning).
 - Remember to use both reward normalization and advantage normalization. Pseudocode for reward normalization can be found in Section 9.3 of [this paper](https://arxiv.org/pdf/1811.02553v3.pdf).
 - Plot some diagnostics to help debug errors:
