@@ -6,7 +6,7 @@ This chapter is included for breadth, but it can be skipped if you want to focus
 
 ## Recommended reading
 
-- [Contrastive Representation Learning](https://lilianweng.github.io/posts/2021-05-31-contrastive/) - Contrastive objectives are an important class of training objectives that are used for representation learning.
+- [Contrastive Representation Learning](https://lilianweng.github.io/posts/2021-05-31-contrastive/) - Contrastive objectives are an important class of training objectives that are used for representation learning. The first section of this post, entitled "Contrastive Training Objectives", covers some popular contrastive objectives.
 
 ## Optional reading
 
@@ -18,4 +18,4 @@ This chapter is included for breadth, but it can be skipped if you want to focus
 
 ## Suggested exercise
 
-Train a contrastive CNN on MNIST. Measure the classification accuracy of your model by using a few held-out examples from each class to compare each test example to.
+Train a contrastive CNN on MNIST using a contrastive objective of your choice. Hold out a few examples from each class from the training set. Once your model has finished training, use your held-out examples to measure the classification accuracy of your model: for each test example, measure the similarity of the test example to each held-out example, and choose the class with the highest average similarity.
