@@ -23,10 +23,10 @@ Alignment is the problem of getting models to use their abilities in the ways th
 Read the first 49 pages of the ELK report (up until "Why we're excited about tackling worst-case ELK"). Try to come up with a proposal of your own that handles all of the counterexamples in the report.
 
 - For guidance on what counts as a valid proposal, see [this post](https://www.alignmentforum.org/posts/QEYWkRoCn4fZxXQAY/prizes-for-elk-proposals). You should try to come up with a proposal that would have been a valid competition entry.
-- Hint: base your solution on one of the following ideas:
+- Hint: base your proposal on one of the following ideas:
     - Train a reporter that is useful to an auxiliary AI
     - Require the reporter to be continuous
     - Penalize depending on too many parts of the predictor
     - Compress the predictor's state so it can't tell what a human would believe
-- Your solution will almost certainly have a counterexample of its own. Make your solution precise enough that you can give a fairly specific counterexample.
-- Once you're finished, compare your solution with the ones given in [this post](https://www.alignmentforum.org/posts/zjMKpSB2Xccn9qi5t/elk-prize-results).
+- Your proposal will almost certainly have a counterexample of its own. Make your proposal precise enough that you can give a fairly specific counterexample.
+- Once you're finished, compare your proposal with the ones given in [this post](https://www.alignmentforum.org/posts/zjMKpSB2Xccn9qi5t/elk-prize-results).
