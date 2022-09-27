@@ -20,8 +20,9 @@ Alignment is the problem of getting models to use their abilities in the ways th
 
 ## Suggested exercise
 
-Read the ELK report (the first ~30 pages, which frame the problem) and try to come up with a solution of your own that handles all of the counterexamples in the report.
+Read the first 49 pages of the ELK report (up until "Why we're excited about tackling worst-case ELK"). Try to come up with a proposal of your own that handles all of the counterexamples in the report.
 
+- For guidance on what counts as a valid proposal, see [this post](https://www.alignmentforum.org/posts/QEYWkRoCn4fZxXQAY/prizes-for-elk-proposals). You should try to come up with a proposal that would have been a valid competition entry.
 - Hint: base your solution on one of the following ideas:
     - Train a reporter that is useful to an auxiliary AI
     - Require the reporter to be continuous
