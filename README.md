@@ -75,6 +75,8 @@ Each chapter should take between half a week and 2 weeks of full-time study, dep
 
 Once you have completed an exercise, you can take a look at other people's solutions [here](Solutions.md). You are welcome to add a link to your own solutions to that page by submitting a PR.
 
+The main other useful skill for working in this area is software engineering, especially working with distributed systems and large, shared codebases. I think the most common way to improve at this is through professional experience, but it can also be done by contributing to open source projects. In order to pick up best practices, you generally want to be reading other people's code and having others review your code.
+
 ## Alternatives to this curriculum
 
 This curriculum may be very challenging, especially without mentorship. A more realistic alternative for most people is to work on larger programming projects involving deep learning, and/or to work through more advanced textbooks or online courses. These can be engaging, provide structure, and last a long time. The downside is that they may be less focused on the most relevant material. But it's always possible to return to this curriculum at a later date.
