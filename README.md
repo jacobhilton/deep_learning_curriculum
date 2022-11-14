@@ -61,7 +61,9 @@ The curriculum is divided into 8 chapters:
 - [Chapter 8: Interpretability](8-Interpretability.md)
 - [Chapter 9: Adversarial Training](9-Adversarial-Training.md)
 
-Chapter 1 is helpful for understanding chapters 2, 3, 8 and 9, but otherwise the chapters can be completed in any order. Chapter 6 may also be somewhat helpful for understanding chapter 7. Chapters 1 and 6 are probably the most important overall.
+Chapter 1 is helpful for understanding chapters 2, 3, 8 and 9, but otherwise the chapters can be completed in any order. Chapter 6 may also be somewhat helpful for understanding chapter 7.
+
+The order of importance of the chapters is something like: 1, 6, 2, 7, 4, 8, 9, 3, 5. For a longer version of Chapter 7, replace it by the [AGI Safety Fundamentals](https://www.agisafetyfundamentals.com/) technical AI alignment track.
 
 Each chapter has three sections:
 

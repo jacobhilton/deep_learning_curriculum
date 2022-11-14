@@ -17,6 +17,8 @@ This chapter may be helpful if you're going to be working with large-scale model
 
 ## Suggested exercise
 
+Note: this exercise is fun, but not that directly useful unless you are going to be writing GPU code, which is not that common.
+
 Write an implementation of [Adam](https://arxiv.org/abs/1412.6980) using Triton, which is "fused" in the sense that the entire update is performed by a single call to low-level GPU code.
 
 - First write the code for the update rule that can be compiled using `@triton.jit` decorator.

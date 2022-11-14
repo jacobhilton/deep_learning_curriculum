@@ -4,12 +4,11 @@ The transformer is an important neural network architecture used for language mo
 
 ## Recommended reading
 
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Section 3 of the paper that introduced the transformer explains the architecture well. Don't worry too much about the encoder and how that fits in, as that's somewhat specific to translation – unsupervised transformer language models are generally decoder-only.
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Section 3 of the paper that introduced the transformer explains the architecture. Don't worry too much about the encoder and how that fits in, as that's somewhat specific to translation – unsupervised transformer language models are generally decoder-only.
 
 ## Optional reading
 
-- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - An informal blog post that tries to explain some of the intuition behind the architecture.
-- [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html) - An implementation-centric explanation of the architecture.
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - A blog post explaining the architecture more carefully. Read this if you're finding the original paper hard to follow.
 - [GPT-3](https://arxiv.org/abs/2005.14165) - A 175-billion parameter decoder-only transformer language model that exhibits impressive meta-learning capabilities.
 - [The Transformer Family](https://lilianweng.github.io/posts/2020-04-07-the-transformer-family/) - An overview of many transformer variants, including Transformer-XL, Image Transformer, Sparse Transformer, Reformer and Universal Transformer.
 - [T5](https://arxiv.org/abs/1910.10683) - A careful study of different architectural details and training objectives for transformers.
@@ -30,5 +29,6 @@ Implement a decoder-only transformer language model.
     - Now implement the masking function. 
     - Put it all together to form an entire attention block. 
     - Finish the whole architecture.
+- If you get stuck, [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html) may help, but don't just copy-paste the code.
 - To check you have the attention mask set up correctly, train your model on a toy task, such as reversing a random sequence of tokens. The model should be able to predict the second sequence, but not the first.
 - Finally, train your model on [the complete works of William Shakespeare](https://www.gutenberg.org/files/100/100-0.txt). Tokenize the corpus by splitting at word boundaries (`re.split(r"\b", ...)`).
