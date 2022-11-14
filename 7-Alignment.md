@@ -33,7 +33,7 @@ Practical exercise: fine-tune your Shakespeare transformer from [Chapter 1](1-Tr
     - Measure KL(current model || original model). If the fraction of ratios clipped is high enough, you shouldn't need to penalize this directly to prevent it growing too fast. Square root KL should grow roughly linearly over the course of training. Stop training once you reach 50 nats per completion, but keep hold of plenty of intermediate checkpoints at lower KLs.
 - Look at some samples from your different checkpoints, and try to get a sense of which one is the best, and where overoptimization started to occur.
 - Evaluate your preferred model by blindly rating 20 samples from your original model and 20 from your final model, to see whether it really is better. Maybe even ask a friend to do the ratings in case you think you can recognize the model. You can also try comparing it to a model that was trained to optimize negative sentiment (note: don't flip the sign of the reward function when training AGI).
-- Extension/alternative: do the same thing but with conditional rather than unconditional samples (using prompts from the original Shakespeare dataset), and training a comparison reward model instead of a absolute reward model.
+- Extension/alternative: do the same thing but with conditional rather than unconditional samples (using prompts from the original Shakespeare dataset), and training a comparison reward model instead of an absolute reward model.
 
 AND/OR
 
