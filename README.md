@@ -49,7 +49,7 @@ In addition to this, I recommend learning [PyTorch](https://pytorch.org/tutorial
 
 ## How to use this curriculum
 
-The curriculum is divided into 8 chapters:
+The curriculum is divided into 9 chapters:
 
 - [Chapter 1: Transformers](1-Transformers.md)
 - [Chapter 2: Scaling Laws](2-Scaling-Laws.md)
