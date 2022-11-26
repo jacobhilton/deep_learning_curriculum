@@ -22,15 +22,17 @@ Alignment is the problem of getting models to use their abilities in the ways th
 
 ## Suggested exercise
 
+This chapter has two suggested exercises, a practical exercise and a theoretical exercise. They are both pretty challenging, but the practical exercise will be easier if you have already completed chapters 1 and 6.
+
 Practical exercise: fine-tune your Shakespeare transformer from [Chapter 1](1-Transformers.md) using RLHF to get it to output samples with positive sentiment. (If you didn't do that exercise, you might be able to find some code to help you from the [solutions page](Solutions.md)).
 
-- Collect some unconditional samples from your model, and label them as positive, negative or neutral in sentiment yourself. You will probably need at least few hundred labels, so keep the samples fairly short so that this isn't too laborious. (Consider pooling your labels if working with others.)
+- Collect some unconditional samples from your model, and label them as positive, negative or neutral in sentiment yourself. You will probably need at least few hundred labels, so keep the samples fairly short so that this isn't too laborious. (Consider pooling your labels if working with others, or mixing in some snippets from the original corpus whose sentiment is less ambiguous.)
 - Fine-tune your model to obtain a reward model that predicts the sentiment of a sample. You can treat this as a sequence-modeling problem by having a model predict special tokens such as "happy" and "sad" based on the sentiment, treating neutral labels as soft 50% labels. Remember to mask all but the last token of the sample.
 - Fine-tune your original model using PPO, with rewards given by the log probability of positive sentiment predicted by the reward model.
     - To make things simpler, don't bother with a value function or GAE. Just use the reward itself as the advantage estimate at every token.
     - Recenter and normalize the rewards. Just use fixed constants taken from a few thousand samples instead of implementing running estimates.
     - As in chapter 6, track the fraction of ratios clipped. If it is below 1%, then increase the iteration batch size, i.e., the number of samples in each alternation between rollouts and optimization. The iteration batch size might need to be a few thousand completions or more.
-    - Measure KL(current model || original model). If the fraction of ratios clipped is high enough, you shouldn't need to penalize this directly to prevent it growing too fast. Square root KL should grow roughly linearly over the course of training. Stop training once you reach 50 nats per completion, but keep hold of plenty of intermediate checkpoints at lower KLs.
+    - Measure KL(current model || original model). If the fraction of ratios clipped is high enough, you shouldn't need to penalize this directly to prevent it growing too fast. Square root KL should grow roughly linearly over the course of training. Stop training once you reach 10 nats per completion, but keep hold of plenty of intermediate checkpoints at lower KLs.
 - Look at some samples from your different checkpoints, and try to get a sense of which one is the best, and where overoptimization started to occur.
 - Evaluate your preferred model by blindly rating 20 samples from your original model and 20 from your final model, to see whether it really is better. Maybe even ask a friend to do the ratings in case you think you can recognize the model. You can also try comparing it to a model that was trained to optimize negative sentiment (note: don't flip the sign of the reward function when training AGI).
 - Extension/alternative: do the same thing but with conditional rather than unconditional samples (using prompts from the original Shakespeare dataset), and training a comparison reward model instead of an absolute reward model.
