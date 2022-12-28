@@ -14,6 +14,7 @@ Mechanistic interpretability aims to reverse-engineer the weights of neural netw
 - [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) - A preliminary framework for transformer interpretability, which helps give an intuition for what computations transformers are actually performing. There are accompanying [exercises](https://transformer-circuits.pub/2021/exercises/index.html) and [videos](https://transformer-circuits.pub/2021/videos/index.html).
 - [Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html) - A study of induction heads, a mechanism for copying text that appears early in language model training.
 - [SoLU](https://transformer-circuits.pub/2022/solu/index.html) - An activation function that improves language model interpretability. Includes some interesting examples of language model neuron interpretations.
+- [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started) - A much more detailed guide to getting into interpretabilty for transformers.
 - [Chris Olah's views on AGI safety](https://www.alignmentforum.org/posts/X2i9dQQK3gETCyqh2/chris-olah-s-views-on-agi-safety) - Some high-level thoughts on how interpretability could help ensure the safety of advanced AI systems.
 
 ## Suggested exercise
