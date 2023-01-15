@@ -44,6 +44,7 @@ Before embarking on this curriculum (or one of the alternatives suggested below)
 - [3Blue1Brown on Neural Networks](https://www.3blue1brown.com/topics/neural-networks) - A video series explaining neural networks in an intuitive way.
 - [Machine Learning Coursera course](https://www.coursera.org/learn/machine-learning) - An online lecture series covering both theoretical and practical topics. Has some practical exercises, but they may be a bit too "fill in the blanks".
 - [Practical Deep Learning for Coders from fast.ai](https://course.fast.ai/) - An online textbook with a practical focus. Has practical exercises.
+- [Full Stack Deep Learning](https://fullstackdeeplearning.com/) - An online deep learning course with lectures and labs.
 
 In addition to this, I recommend learning [PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html), and, as an exercise, using it to train a small neural network to do [MNIST](http://yann.lecun.com/exdb/mnist/) classification. You should be able to achieve around 99% test accuracy using a 3-layer [convolutional neural network](https://cs231n.github.io/convolutional-networks/). You can also use your setup to run a few experiments on some simple methods of [regularization](https://cs231n.github.io/neural-networks-2/).
 
@@ -61,9 +62,11 @@ The curriculum is divided into 9 chapters:
 - [Chapter 8: Interpretability](8-Interpretability.md)
 - [Chapter 9: Adversarial Training](9-Adversarial-Training.md)
 
-Chapter 1 is helpful for understanding chapters 2, 3, 8 and 9, but otherwise the chapters can be completed in any order. Chapter 6 may also be somewhat helpful for understanding chapter 7.
+The chapters are **not** necessarily of equal importance. For a typical person, the order of importance is something like: 1, 6, 2, 7, 4, 8, 9, 3, 5.
 
-The order of importance of the chapters is something like: 1, 6, 2, 7, 4, 8, 9, 3, 5. For a longer version of Chapter 7, replace it by the [AGI Safety Fundamentals](https://www.agisafetyfundamentals.com/) technical AI alignment track.
+Chapter 1 is helpful for understanding chapters 2, 3, 8 and 9, and chapter 6 may also be somewhat helpful for understanding chapter 7, but otherwise the chapters can be completed in any order.
+
+For a longer version of Chapter 7, replace it by the [AGI Safety Fundamentals](https://www.agisafetyfundamentals.com/) technical AI alignment track. For a longer version of Chapter 8, replace it by [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started).
 
 Each chapter has three sections:
 

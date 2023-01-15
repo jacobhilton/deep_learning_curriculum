@@ -24,3 +24,7 @@ Train a small CNN to do MNIST classification, and try your best to mechanistical
 - Try feature visualization, but note that it often [doesn't work](https://distill.pub/2020/understanding-rl-vision/#feature-visualization) for models trained on such a simple dataset.
 - Try [attribution](https://distill.pub/2018/building-blocks/#:~:text=How%20Are%20Concepts%20Assembled), which is more likely to help.
 - Use whatever other techniques you like. Consider focusing in on a small part of the network and trying to understand it as best you can.
+
+OR
+
+Find the induction heads in GPT-2. Do this exercise if you want to prioritize transformer interpretability.
