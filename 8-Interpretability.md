@@ -19,6 +19,8 @@ Mechanistic interpretability aims to reverse-engineer the weights of neural netw
 
 ## Suggested exercise
 
+See also: [200 Concrete Open Problems in Mechanistic Interpretability](https://www.alignmentforum.org/posts/LbrPTJ4fmABEdEnLf/200-concrete-open-problems-in-mechanistic-interpretability)
+
 Train a small CNN to do MNIST classification, and try your best to mechanistically understand how it is able to classify digits correctly.
 
 - Try feature visualization, but note that it often [doesn't work](https://distill.pub/2020/understanding-rl-vision/#feature-visualization) for models trained on such a simple dataset.
