@@ -30,5 +30,5 @@ Implement a decoder-only transformer language model.
     - Put it all together to form an entire attention block. 
     - Finish the whole architecture.
 - If you get stuck, [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html) may help, but don't just copy-paste the code.
-- To check you have the attention mask set up correctly, train your model on a toy task, such as reversing a random sequence of tokens. The model should be able to predict the second sequence, but not the first.
+- To check you have the attention mask set up correctly, train your model on a toy task, such as reversing a random sequence of tokens. The model should be able to predict the second half of the sequence, but not the first.
 - Finally, train your model on [the complete works of William Shakespeare](https://www.gutenberg.org/files/100/100-0.txt). Tokenize the corpus by splitting at word boundaries (`re.split(r"\b", ...)`). Make sure you don't use overlapping sequences as this can lead to overfitting.
