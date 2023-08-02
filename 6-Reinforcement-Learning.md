@@ -29,4 +29,4 @@ Note: this exercise may especially challenging, and it may help to start with a 
     - The approximate KL between the policy and the "old" policy (used for clipping). We generally estimate this using the mean of 0.5 * (policy_logprob(a) - old_policy_logprob(a)) ** 2, where a is the action that was sampled. For a justification of this estimate, see [this blog post](http://joschu.net/blog/kl-approx.html). This should be fairly stable. Again, the most common cause of spikes or collapses is a poorly-tuned learning rate.
     - Policy entropy - This should fall gradually.
     - Value function explained variance (1 - Var[v_target - v_predicted] / Var[v_target]). This should quickly go above 0 and tend to something positive.
-    - Mean and standard devation used for advantage normalization. The estimates should be fairly stable and the mean should be pretty close to zero.
+    - Mean and standard deviation used for advantage normalization. The estimates should be fairly stable and the mean should be pretty close to zero.
