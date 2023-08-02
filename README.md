@@ -8,7 +8,7 @@ I do not intend to try to keep this curriculum up-to-date, but PRs are welcome, 
 
 Credit to John Schulman for an older curriculum which inspired this and from which I cribbed bits and pieces.
 
-## Pre-prerequesites
+## Pre-prerequisites
 
 Before studying deep learning, I recommend being comfortable with the very basics of the following topics:
 
@@ -36,7 +36,7 @@ There are many resources for studying these topics. Here are some suggestions:
 
 I recommend putting a significant fraction of your study time into exercises – problems for math, and implementation for programming – since it forces you to think through the ideas for yourself.
 
-## Prerequesites
+## Prerequisites
 
 Before embarking on this curriculum (or one of the alternatives suggested below), it is necessary to understand the basics of deep learning, including basic machine learning terminology, what neural networks are, and how to train them. Here are some suggested resources for this:
 
