@@ -8,3 +8,5 @@ I personally recommend avoiding the temptation to look at other people's solutio
     - [Chapter 7 (practical)](https://github.com/ckkissane/rlhf-shakespeare)
     - [All other exercises](https://github.com/ckkissane/deep_learning_curriculum/tree/master/solutions)
 - Ziyue Wang's [post](https://ziyuewang25.github.io/blog/2023/DLC/) about the course and solutions except chapter 3, 4 and 5.
+- MatthewBaggins
+    - [Solutions to 1, 2, 5, 9](https://github.com/MatthewBaggins/deep_learning_curriculum)
